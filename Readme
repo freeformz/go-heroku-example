@@ -3,10 +3,8 @@ following the guide at https://gist.github.com/kr/299535bbf56bf3016cba
 
 You can deploy it to heroku with the following commands:
 
-```
 $ git clone https://github.com/kr/go-heroku-example.git
 $ cd go-heroku-example
 $ heroku create
 $ git push heroku master
 $ heroku open
-```
