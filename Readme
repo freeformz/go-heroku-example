@@ -8,6 +8,6 @@ You can deploy it to heroku with the following commands:
 
 $ git clone https://github.com/kr/go-heroku-example.git
 $ cd go-heroku-example
-$ heroku create
+$ heroku create -b https://github.com/kr/heroku-buildpack-go.git
 $ git push heroku master
 $ heroku open
