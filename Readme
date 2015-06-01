@@ -7,7 +7,7 @@ contains more than one package and more than one command.
 You can deploy it to heroku with the following commands:
 
 $ go get github.com/freeformz/go-heroku-example/...
-$ cd $GOPATH/src/freeformz/go-heroku-example
+$ cd $GOPATH/src/github.com/freeformz/go-heroku-example
 $ heroku create -b https://github.com/heroku/heroku-buildpack-go.git
 $ git push heroku master
 $ heroku open
