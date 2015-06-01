@@ -1,5 +1,8 @@
 {
-	"ImportPath": "github.com/kr/go-heroku-example",
-	"GoVersion": "go1.2.1",
+	"ImportPath": "github.com/freeformz/go-heroku-example",
+	"GoVersion": "go1.4.2",
+	"Packages": [
+		"./..."
+	],
 	"Deps": []
 }

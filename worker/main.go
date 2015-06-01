@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/kr/go-heroku-example/message"
 	"time"
+
+	"github.com/freeformz/go-heroku-example/message"
 )
 
 func main() {
